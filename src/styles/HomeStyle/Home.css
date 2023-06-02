@@ -6,4 +6,10 @@
 
 body {
   background-color: rgb(241, 229, 214);
+}
+
+.PuddingContainer {
+  background: url("../../assets//backgrounds/SfondoPudding.png") no-repeat;
+  height: 20em;
+  width: 100%;
 }/*# sourceMappingURL=Home.css.map */

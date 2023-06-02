@@ -3,6 +3,7 @@ import { ProductCards } from "./ProductCards";
 import "../../styles/PageContainerStyle/PageContainer.css";
 import Yor from "../../assets/Products/Yor.jpg";
 import PinkKorok from "../../assets/Products/PinkKorok.jpg";
+import omocat from "../../assets/Products/omocat.jpg";
 
 export const PageContainer = () => {
   return (
@@ -11,8 +12,8 @@ export const PageContainer = () => {
       <div className="ProductsContainer">
         <ProductCards title={"Yor"} image={Yor} />
         <ProductCards title={"Pink Korok"} image={PinkKorok} />
-        <ProductCards title={"Yor"} />
-        <ProductCards title={"Yor"} />
+        <ProductCards title={"Omocat"} image={omocat} />
+        <ProductCards title={"Omocat"} />
       </div>
     </div>
   );
