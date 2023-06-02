@@ -1,0 +1,30 @@
+.Container {
+  background-color: white;
+  border-radius: 15px;
+  margin: 35px;
+  border: solid 4px pink;
+}
+.Container p {
+  text-align: center;
+  padding: 10px;
+}
+.Container .ProductsContainer {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+.Container .ProductsContainer .singleCard {
+  background-color: pink;
+  padding: 30px;
+  width: 20%;
+  border-radius: 15px;
+  text-align: center;
+  min-width: 300px;
+}
+.Container .ProductsContainer .singleCard img {
+  width: 100%;
+  border-radius: 30px;
+  border: solid 4px white;
+}/*# sourceMappingURL=PageContainer.css.map */

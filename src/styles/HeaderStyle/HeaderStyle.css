@@ -1,0 +1,17 @@
+.header {
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.header .headerPages {
+  display: flex;
+  gap: 30px;
+}
+.header .headerPages a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bolder;
+}/*# sourceMappingURL=HeaderStyle.css.map */
