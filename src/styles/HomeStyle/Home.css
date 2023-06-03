@@ -18,10 +18,15 @@ body {
 
 .PuddingContainer {
   background: url("../../assets//backgrounds/SfondoPudding.png") no-repeat;
-  height: 20em;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.PuddingContainer .bannerText {
+  font-size: 90px;
+  text-align: center;
 }
 .PuddingContainer .fixedButton {
   position: fixed;

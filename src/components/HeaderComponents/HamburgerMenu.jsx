@@ -17,16 +17,16 @@ export default function Hamburger() {
         <nav className={`nav ${isOpen ? "change" : ""}`}>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#">HOME</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#">PRODOTTI</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#">CONTATTI</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#">BLOG</a>
             </li>
           </ul>
         </nav>

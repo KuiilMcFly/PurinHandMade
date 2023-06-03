@@ -17,12 +17,19 @@
       overflow-x: hidden;
   }
 
+  
   .PuddingContainer {
     background: url('../../assets//backgrounds/SfondoPudding.png') no-repeat;
-    height: 20em;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    .bannerText {
+      font-size: 90px;
+      text-align: center;
+    }
 
     .fixedButton {
       position: fixed;
@@ -46,6 +53,7 @@
     .ButtonContainer {
       width: 400px;
       align-items: center;
+
       .PuddingButton {
         width: 100%;
         transform: translateX(2);
