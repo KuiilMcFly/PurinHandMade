@@ -5,7 +5,7 @@ export const ProductCards = (props) => {
   return (
     <div className="singleCard">
       <img src={props.image} alt="" />
-      <p>{props.title}</p>
+      <p className="cardName">{props.title}</p>
     </div>
   );
 };

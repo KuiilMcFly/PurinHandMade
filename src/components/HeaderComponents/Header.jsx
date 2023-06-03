@@ -7,9 +7,7 @@ const Header = () => {
   return (
     <div className="header">
       <HamburgerMenu />
-      <p></p>
-      <p>LOGO</p>
-      <HeaderPages />
+      <p style={{ fontSize: "70px" }}>LOGO</p>
     </div>
   );
 };

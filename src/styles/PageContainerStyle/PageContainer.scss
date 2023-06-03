@@ -1,12 +1,19 @@
 .Container {
-    background-color: white;
     border-radius: 15px;
     margin: 35px;
-    border: solid 4px pink;
+    border-style: solid;
+    border-width: 50px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-image: url(../../assets/backgrounds/pattern.png) 300 round;
+    background: linear-gradient(to bottom, #F1E5D6, #FFFED9, #F1E5D6);
 
     p {
         text-align: center;
         padding: 10px;
+        font-size: 80px;
+        font-weight: bolder;
+        color: #76421D;
     }
 
     .ProductsContainer {
@@ -18,7 +25,7 @@
         
 
         .singleCard {
-            background-color: pink;
+            background-color: #FFF091;
             padding: 30px;
             width: 20%;
             border-radius: 15px;
@@ -28,6 +35,11 @@
                 width: 100%;
                 border-radius: 30px;
                 border: solid 4px white;
+            }
+
+            .cardName {
+                font-size: 60px;
+                color: #76421D;
             }
         }
     }

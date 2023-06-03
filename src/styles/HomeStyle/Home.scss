@@ -4,12 +4,66 @@
     box-sizing: border-box;
   }
 
+  @font-face {
+    font-family: 'MyFont';
+    src: url('../../Pudding.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   body {
     background-color: rgb(241, 229, 214);
+      font-family: 'Pudding', sans-serif;
   }
 
   .PuddingContainer {
     background: url('../../assets//backgrounds/SfondoPudding.png') no-repeat;
     height: 20em;
     width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .fixedButton {
+      position: fixed;
+      bottom:0;
+      right: 0;
+      padding: 1.5rem;
+      margin: 1.5rem;
+      width: 200px;
+      height: 200px;
+
+      .fixedImage {
+        width: 200px;
+      }
+      .fixedImage:hover {
+        transform: scale(1.1);
+        transition: all 0.5 ease;
+      }
+    }
+  
+
+    .ButtonContainer {
+      width: 400px;
+      align-items: center;
+      .PuddingButton {
+        width: 100%;
+        transform: translateX(2);
+        transition: transform 0.5s ease-in-out;
+        animation: pudding-dance 2s infinite alternate;
+      }
+      
+      @keyframes pudding-dance {
+        0% {
+          transform: rotate(2deg) translateX(-3px) translateY(-3px);
+        }
+        100% {
+          transform: rotate(-3deg) translateX(3px) translateY(3px);
+        }
+      }
+      
+      .PuddingButton:hover img {
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+      }
+    }
   }

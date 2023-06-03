@@ -1,11 +1,16 @@
 import React from "react";
 import "../../styles/HomeStyle/Home.css";
-
+import PuddingButton from "../../assets/backgrounds/PuddingButton.png";
 const PreorderContainer = () => {
   return (
     <div className="PuddingContainer">
-      <img src="" alt="" />
-      <p>Ciao sono un testo di prova</p>
+      <div className="ButtonContainer">
+        <img className="PuddingButton" src={PuddingButton} alt="" />
+      </div>
+
+      <div className="fixedButton">
+        <img className="fixedImage" src={PuddingButton} alt="" />
+      </div>
     </div>
   );
 };
