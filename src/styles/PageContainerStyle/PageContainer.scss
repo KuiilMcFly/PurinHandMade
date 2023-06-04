@@ -26,15 +26,27 @@
 
         .singleCard {
             background-color: #FFF091;
-            padding: 30px;
+            
             width: 20%;
             border-radius: 15px;
             text-align: center;
             min-width: 300px;
-            img {
-                width: 100%;
-                border-radius: 30px;
-                border: solid 4px white;
+
+            .ChocolatePhoto {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                }
+            }
+
+            .ProductPhotoContainer {
+                padding: 10px;
+                .ProductPhoto {
+                    width: 100%;
+                    border-radius: 30px;
+                    border: solid 4px #76421D;
+                }
             }
 
             .cardName {

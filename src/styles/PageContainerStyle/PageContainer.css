@@ -25,16 +25,23 @@
 }
 .Container .ProductsContainer .singleCard {
   background-color: #FFF091;
-  padding: 30px;
   width: 20%;
   border-radius: 15px;
   text-align: center;
   min-width: 300px;
 }
-.Container .ProductsContainer .singleCard img {
+.Container .ProductsContainer .singleCard .ChocolatePhoto img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.Container .ProductsContainer .singleCard .ProductPhotoContainer {
+  padding: 10px;
+}
+.Container .ProductsContainer .singleCard .ProductPhotoContainer .ProductPhoto {
   width: 100%;
   border-radius: 30px;
-  border: solid 4px white;
+  border: solid 4px #76421D;
 }
 .Container .ProductsContainer .singleCard .cardName {
   font-size: 60px;
