@@ -24,7 +24,7 @@
   justify-content: center;
 }
 .Container .ProductsContainer .singleCard {
-  background-color: #FFF091;
+  background: linear-gradient(to bottom, #ebcdb5, #FFF091, #FFF091);
   width: 20%;
   border-radius: 15px;
   text-align: center;
