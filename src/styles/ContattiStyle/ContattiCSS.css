@@ -1,0 +1,42 @@
+.ContactContainer {
+  background: url("../../assets/backgrounds/SfondoPudding.png");
+  height: 100vh;
+}
+
+.transparent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.transparent-container p {
+  font-size: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+.ContactsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.ContactsWrapper a {
+  text-decoration: none;
+  color: black;
+}
+.ContactsWrapper a #telegram-block {
+  background-color: #2F9FD5;
+  color: white;
+}
+.ContactsWrapper a .social-block {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px;
+  gap: 15px;
+}
+.ContactsWrapper a .social-block img {
+  width: 50px;
+  height: 50px;
+}/*# sourceMappingURL=ContattiCSS.css.map */
