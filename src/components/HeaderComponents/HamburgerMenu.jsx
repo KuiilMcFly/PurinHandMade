@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../../styles/HamburgerStyle/Hamburger.css";
+import { Link } from "react-router-dom";
 
-export default function Hamburger() {
+const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
@@ -17,13 +18,13 @@ export default function Hamburger() {
         <nav className={`nav ${isOpen ? "change" : ""}`}>
           <ul>
             <li>
-              <a href="#">HOME</a>
+              <Link to="/">HOME</Link>
             </li>
             <li>
               <a href="#">PRODOTTI</a>
             </li>
             <li>
-              <a href="#">CONTATTI</a>
+              <Link to="/contatti">CONTATTI</Link>
             </li>
             <li>
               <a href="#">BLOG</a>
@@ -35,4 +36,6 @@ export default function Hamburger() {
       <div className={`menu_bg ${isOpen ? "change_bg" : ""}`}></div>
     </>
   );
-}
+};
+
+export default HamburgerMenu;
