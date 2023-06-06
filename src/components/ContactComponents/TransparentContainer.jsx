@@ -9,7 +9,7 @@ const TransparentContainer = () => {
       <p>Prenota qui la tua commissione!</p>
 
       <div className="ContactsWrapper">
-        <a href="">
+        <a href="https://t.me/jeandanchousama">
           <div className="social-block" id="telegram-block">
             <p>Telegram</p>
             <img id="telegramIcon" src={telegramIcon} alt="" />
@@ -19,7 +19,7 @@ const TransparentContainer = () => {
         <a href="https://www.instagram.com/purinhandmade/">
           <div className="social-block" id="instagram-block">
             <p>Instagram</p>
-            <img src={instagramIcon} alt="" />
+            <img id="instagramIcon" src={instagramIcon} alt="" />
           </div>
         </a>
       </div>

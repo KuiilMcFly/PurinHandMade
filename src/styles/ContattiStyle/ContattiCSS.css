@@ -26,8 +26,20 @@
   color: black;
 }
 .ContactsWrapper a #telegram-block {
-  background-color: #2F9FD5;
+  background: linear-gradient(#2F9FD5, #7aadc7);
+  border: solid 2px black;
   color: white;
+}
+.ContactsWrapper a #telegram-block #telegramIcon {
+  filter: invert(1);
+}
+.ContactsWrapper a #instagram-block {
+  background: linear-gradient(#FD01B7, #AA07F1, #FE301E, #FFC300);
+  color: white;
+  border: solid 2px black;
+}
+.ContactsWrapper a #instagram-block #instagramIcon {
+  filter: invert(1);
 }
 .ContactsWrapper a .social-block {
   display: flex;

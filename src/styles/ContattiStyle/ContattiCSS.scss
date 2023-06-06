@@ -26,12 +26,23 @@
         text-decoration: none;
         color: black;
         #telegram-block {
-            background-color: #2F9FD5;
+            background: linear-gradient(#2F9FD5, #7aadc7);
+            border: solid 2px black;
             color: white;
             #telegramIcon {
-                
+                filter: invert(1)
             }
         }
+
+        #instagram-block {
+            background: linear-gradient(#FD01B7, #AA07F1, #FE301E, #FFC300);
+            color: white;
+            border: solid 2px black;
+            #instagramIcon {
+                filter: invert(1)
+            }
+        }
+
         .social-block {
             display: flex;
             align-items: center;
