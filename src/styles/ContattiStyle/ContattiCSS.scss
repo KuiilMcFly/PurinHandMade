@@ -3,6 +3,13 @@
     height: 100vh;
 }
 
+
+
+.ChocolatePhoto {
+    display: flex;
+    overflow: hidden;
+   }
+
 .transparent-container {
    display: flex;
    flex-direction: column;
@@ -14,6 +21,7 @@
     text-align: center;
     padding: 10px;
    }
+
 }
 
 .ContactsWrapper {
