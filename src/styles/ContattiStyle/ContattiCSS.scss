@@ -1,13 +1,14 @@
 .ContactContainer {
     background: url('../../assets/backgrounds/SfondoPudding.png');
-    height: 100vh;
+    height: 100%;
+    
 }
 
 .contact-flex-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 150px;
+    gap: 100px;
 }
 
 .ChocolatePhoto {
@@ -26,7 +27,7 @@
    align-items: center;
 
    p {
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     padding: 10px;
    }
@@ -38,6 +39,7 @@
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 
     a {
         text-decoration: none;
@@ -46,6 +48,7 @@
             background: linear-gradient(#2F9FD5, #7aadc7);
             border: solid 2px black;
             color: white;
+            box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.468);
             #telegramIcon {
                 filter: invert(1)
             }
@@ -55,6 +58,7 @@
             background: linear-gradient(#FD01B7, #AA07F1, #FE301E, #FFC300);
             color: white;
             border: solid 2px black;
+            box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.468);
             #instagramIcon {
                 filter: invert(1)
             }

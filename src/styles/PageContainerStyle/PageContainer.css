@@ -25,7 +25,9 @@
 }
 .Container .ProductsContainer .singleCard {
   background: linear-gradient(to bottom, #ebcdb5, #FFF091, #FFF091);
+  box-shadow: 25px 20px 5px rgba(0, 0, 0, 0.468);
   width: 20%;
+  border: solid 1px black;
   border-radius: 15px;
   text-align: center;
   min-width: 300px;
