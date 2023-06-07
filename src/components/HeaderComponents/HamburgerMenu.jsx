@@ -21,7 +21,7 @@ const HamburgerMenu = () => {
               <Link to="/">HOME</Link>
             </li>
             <li>
-              <a href="#">PRODOTTI</a>
+              <Link to="/prodotti">PRODOTTI</Link>
             </li>
             <li>
               <Link to="/contatti">CONTATTI</Link>
