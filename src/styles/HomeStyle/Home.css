@@ -19,13 +19,20 @@ body {
 .PuddingContainer {
   background: url("../../assets//backgrounds/SfondoPudding.png") no-repeat;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.468);
 }
-.PuddingContainer .bannerText {
+.PuddingContainer a {
+  text-decoration: none;
+  color: black;
+}
+.PuddingContainer a .flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 50px;
+}
+.PuddingContainer a .bannerText {
   font-size: 90px;
   text-align: center;
 }

@@ -8,7 +8,7 @@ import omocat from "../../assets/Products/omocat.jpg";
 export const PageContainer = () => {
   return (
     <div className="Container">
-      <p>Prodotti</p>
+      <p>ULTIMI PRODOTTI</p>
       <div className="ProductsContainer">
         <ProductCards title={"Yor"} image={Yor} />
         <ProductCards title={"Pink Korok"} image={PinkKorok} />
