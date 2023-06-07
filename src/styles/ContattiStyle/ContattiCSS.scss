@@ -3,11 +3,20 @@
     height: 100vh;
 }
 
-
+.contact-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 150px;
+}
 
 .ChocolatePhoto {
     display: flex;
     overflow: hidden;
+
+    .choco2 {
+        transform: scaleX(-1);
+    }
    }
 
 .transparent-container {

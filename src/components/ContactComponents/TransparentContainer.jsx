@@ -3,12 +3,13 @@ import "../../styles/ContattiStyle/ContattiCSS.css";
 import telegramIcon from "../../assets/icons/telegram.png";
 import instagramIcon from "../../assets/icons/instagram.png";
 import ChocolateP from "../../assets/backgrounds/ChocolateP.png";
+import Footer from "../FooterComponents/Footer";
 const TransparentContainer = () => {
   return (
-    <>
+    <div className="contact-flex-container">
       <div className="ChocolatePhoto">
-        <img src={ChocolateP} alt="" />
-        <img src={ChocolateP} alt="" />
+        <img className="choco1" src={ChocolateP} alt="" />
+        <img className="choco2" src={ChocolateP} alt="" />
       </div>
       <div className="transparent-container">
         <p>Prenota qui la tua commissione!</p>
@@ -29,7 +30,8 @@ const TransparentContainer = () => {
           </a>
         </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 
