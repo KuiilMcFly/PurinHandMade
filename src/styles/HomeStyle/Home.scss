@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    transition: all ease 2s;
   }
 
   @font-face {
@@ -15,7 +16,7 @@
       font-family: 'Pudding', sans-serif;
       overflow-x: hidden;
   }
-  
+
   .ThemeLight{
     background-color: rgb(241, 229, 214);
   }
