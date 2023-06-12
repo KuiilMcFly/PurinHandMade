@@ -1,4 +1,3 @@
-import React from "react";
 import "../../styles/PageContainerStyle/PageContainer.css";
 import ChocolateP3 from "../../assets/backgrounds/ChocolateP3.png";
 export const ProductCards = (props) => {

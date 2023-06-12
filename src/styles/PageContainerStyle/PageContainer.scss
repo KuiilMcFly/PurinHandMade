@@ -1,3 +1,12 @@
+.TextLight {
+    color: #76421D;
+}
+
+.TextDark {
+    color: #FFF091;
+}
+
+
 .Container {
     border-radius: 15px;
     margin: 35px;
@@ -6,14 +15,13 @@
     background-repeat: no-repeat;
     background-size: auto;
     border-image: url(../../assets/backgrounds/pattern.png) 300 round;
-    background: linear-gradient(to bottom, #F1E5D6, #FFFED9, #F1E5D6);
+   
 
     p {
         text-align: center;
         padding: 10px;
         font-size: 80px;
         font-weight: bolder;
-        color: #76421D;
     }
 
     .ProductsContainer {

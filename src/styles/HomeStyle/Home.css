@@ -11,9 +11,16 @@
   font-style: normal;
 }
 body {
-  background-color: rgb(241, 229, 214);
   font-family: "Pudding", sans-serif;
   overflow-x: hidden;
+}
+
+.ThemeLight {
+  background-color: rgb(241, 229, 214);
+}
+
+.ThemeDark {
+  background-color: #785339;
 }
 
 .PuddingContainerDark {
