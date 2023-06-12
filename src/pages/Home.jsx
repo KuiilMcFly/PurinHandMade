@@ -1,4 +1,3 @@
-import React from "react";
 import { PageContainer } from "../components/PageComponents/PageContainer";
 import Header from "../components/HeaderComponents/Header";
 import PreorderContainer from "../components/PreorderComponents/PreorderContainer";

@@ -1,8 +1,7 @@
-import React from "react";
 import Home from "./pages/Home";
 import Contatti from "./pages/Contatti";
 import Prodotti from "./pages/Prodotti";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (

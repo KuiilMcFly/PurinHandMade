@@ -18,3 +18,23 @@
 
 }
 
+.headerDark {
+    background-color: #76421D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+
+    .headerPages {
+        display: flex;
+        gap: 30px;
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bolder;
+        }
+    } 
+
+}
+
