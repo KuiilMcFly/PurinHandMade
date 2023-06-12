@@ -22,6 +22,15 @@ body {
   transition: 0.3s ease;
 }
 
+.barDark {
+  height: 5px;
+  width: 100%;
+  background-color: #f8f8f8;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
 .bar1 {
   transform: translateY(-4px);
 }
@@ -66,6 +75,16 @@ body {
   height: 0;
   margin: 30px 0 20px 20px;
   background: radial-gradient(circle, rgba(118, 66, 29, 0.4980392157), #76421d);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.menu_bg_dark {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #e3dcb7, #FFF4BE);
   border-radius: 50%;
   transition: 0.3s ease;
 }

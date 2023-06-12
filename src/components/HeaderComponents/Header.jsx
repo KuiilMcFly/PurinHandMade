@@ -1,11 +1,11 @@
 import HamburgerMenu from "./HamburgerMenu";
 import "../../styles/HeaderStyle/HeaderStyle.css";
-import ChangeTheme from "../../Theme";
+import { useTheme } from "../../ThemeContext";
+
 const Header = () => {
-  const { theme } = ChangeTheme();
+  const { theme } = useTheme();
 
   const themeClass = theme === "light" ? "header " : "headerDark";
-  console.log(theme);
 
   return (
     <div className={`App ${themeClass}`}>

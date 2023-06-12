@@ -2,10 +2,14 @@ import "../../styles/HomeStyle/Home.css";
 import PuddingButton from "../../assets/backgrounds/PuddingButton.png";
 import { Link } from "react-router-dom";
 import PuddingDarkMode from "../../assets/backgrounds/darktheme.png";
-import ChangeTheme from "../../Theme";
-const PreorderContainer = () => {
-  const { theme, toggleTheme } = ChangeTheme();
+import { useTheme } from "../../ThemeContext";
 
+const PreorderContainer = () => {
+  const { theme, setTheme } = useTheme();
+
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
   const themeClass =
     theme === "light" ? "PuddingContainer " : "PuddingContainerDark";
   console.log(theme);

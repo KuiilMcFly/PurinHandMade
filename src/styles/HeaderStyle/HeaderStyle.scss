@@ -8,32 +8,25 @@
     .headerPages {
         display: flex;
         gap: 30px;
-        a {
-            color: white;
-            text-decoration: none;
-            font-size: 22px;
-            font-weight: bolder;
-        }
+      
     } 
 
 }
 
 .headerDark {
-    background-color: #76421D;
+    background-color: #3f210b;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 50px;
+    p{
+        color: white;
+    }
 
     .headerPages {
         display: flex;
         gap: 30px;
-        a {
-            color: white;
-            text-decoration: none;
-            font-size: 22px;
-            font-weight: bolder;
-        }
+        
     } 
 
 }
