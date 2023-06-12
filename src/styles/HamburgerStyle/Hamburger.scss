@@ -54,9 +54,14 @@ body {
   }
   
   .nav li a {
-    color: white;
     font-size: 50px;
     text-decoration: none;
+  }
+  .HamburgerLink {
+    color: white;
+  }
+  .HamburgerLinkDark {
+    color: rgb(0, 0, 0);
   }
   
   .nav li a:hover {
@@ -68,13 +73,21 @@ body {
     left: 0;
     position: absolute;
   }
+
+
+  .menuColorLight {
+    background: radial-gradient(circle, #76421d7f, #76421d);
+  }
+
+  .menuColorDark {
+    background: radial-gradient(circle, #e3dcb7, #fff4bea0);
+  }
   
   .menu_bg {
     z-index: 1;
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #76421d7f, #76421d);
     border-radius: 50%;
     transition: 0.3s ease;
   }
@@ -84,7 +97,6 @@ body {
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #e3dcb7, #FFF4BE);
     border-radius: 50%;
     transition: 0.3s ease;
   }

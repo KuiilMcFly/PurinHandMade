@@ -7,7 +7,10 @@ const HamburgerMenu = () => {
   const { theme } = useTheme();
 
   const themeClass = theme === "light" ? "bar " : "barDark";
-  const ThemeHamburgerClass = theme === "light" ? "menu_bg " : "menu_bg_dark ";
+  const ThemeHamburgerClass =
+    theme === "light" ? "menuColorLight " : "menuColorDark";
+  const ThemeHamburgerLink =
+    theme === "light" ? "HamburgerLink " : "HamburgerLinkDark";
   return (
     <>
       <div className="menu">
@@ -22,13 +25,19 @@ const HamburgerMenu = () => {
         <nav className={`nav ${isOpen ? "change" : ""}`}>
           <ul>
             <li>
-              <Link to="/">HOME</Link>
+              <Link className={`${ThemeHamburgerLink}`} to="/">
+                HOME
+              </Link>
             </li>
             <li>
-              <Link to="/prodotti">PRODOTTI</Link>
+              <Link className={`${ThemeHamburgerLink}`} to="/prodotti">
+                PRODOTTI
+              </Link>
             </li>
             <li>
-              <Link to="/contatti">CONTATTI</Link>
+              <Link className={`${ThemeHamburgerLink}`} to="/contatti">
+                CONTATTI
+              </Link>
             </li>
             <li>
               <a href="#">BLOG</a>
@@ -37,7 +46,11 @@ const HamburgerMenu = () => {
         </nav>
       </div>
 
-      <div className={`menu_bg ${isOpen ? "change_bg" : ""}`}></div>
+      <div
+        className={`${ThemeHamburgerClass} menu_bg ${
+          isOpen ? "change_bg" : ""
+        }`}
+      ></div>
     </>
   );
 };
